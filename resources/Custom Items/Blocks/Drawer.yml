@@ -1,0 +1,87 @@
+Drawer:
+  Item:
+    Available: true
+    Type: ANDESITE
+    Name: "Drawer"
+    CustomModelData: 4
+    Block: RED_MUSHROOM_BLOCK
+    Facing:
+      Up: false
+      Down: false
+      North: false
+      South: false
+      East: false
+      West: false
+  Facing:
+    NORTH:
+      Block:
+        Up: false
+        Down: false
+        North: false
+        South: false
+        East: false
+        West: false
+      ArmorStandLocation:
+        x: 0.5
+        y: -0.5
+        z: -0.1
+        pitch: 0
+        yaw: 0
+      EulerAngle:
+        x: 0
+        y: 0
+        z: 0
+    SOUTH:
+      Block:
+        Up: true
+        Down: false
+        North: false
+        South: false
+        East: false
+        West: false
+      ArmorStandLocation:
+        x: 0.5
+        y: -0.5
+        z: 1.1
+        pitch: 0
+        yaw: 0
+      EulerAngle:
+        x: 0
+        y: 0
+        z: 0
+    WEST:
+      Block:
+        Up: true
+        Down: false
+        North: false
+        South: true
+        East: false
+        West: false
+      ArmorStandLocation:
+        x: -0.1
+        y: -0.5
+        z: 0.5
+        pitch: 0
+        yaw: 0
+      EulerAngle:
+        x: 0
+        y: 0
+        z: 0
+    EAST:
+      Block:
+        Up: true
+        Down: false
+        North: false
+        South: false
+        East: false
+        West: true
+      ArmorStandLocation:
+        x: 1.1
+        y: -0.5
+        z: +0.5
+        pitch: 0
+        yaw: 0
+      EulerAngle:
+        x: 0
+        y: 0
+        z: 0

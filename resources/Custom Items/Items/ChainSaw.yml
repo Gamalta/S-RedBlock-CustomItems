@@ -1,0 +1,56 @@
+Available: true
+ChainSaw:
+  Default:
+    Name: "Tronçonneuse"
+    Type: CLAY_BALL
+    CustomModelData: 1
+    FuelCapacity: 100
+    Stackable: false
+  Unstable:
+    Available: true
+    Name: "Tronçonneuse instable"
+    Type: DIAMOND_AXE
+    CustomModelData: 1
+    MaxCustomDurability: 1500
+    MiningSpeed: 1
+    FuelConsumption: 0.5
+    FuelCapacity: 100
+    Stackable: false
+    Damaged:
+      Name: "Tronçonneuse instable endommagée"
+      Type: CLAY_BALL
+      CustomModelData: 2
+      FuelCapacity: 100
+      Stackable: false
+  Diamond:
+    Available: true
+    Name: "Tronçonneuse en diamant"
+    Type: DIAMOND_AXE
+    CustomModelData: 2
+    MaxCustomDurability: 1000
+    FuelConsumption: 0.75
+    FuelCapacity: 100
+    MiningSpeed: 2
+    Stackable: false
+    Damaged:
+      Name: "Tronçonneuse en diamant endommagée"
+      Type: CLAY_BALL
+      CustomModelData: 3
+      FuelCapacity: 100
+      Stackable: false
+  Iron:
+    Available: true
+    Name: "Tronçonneuse en fer"
+    Type: DIAMOND_AXE
+    CustomModelData: 3
+    MaxCustomDurability: 500
+    FuelConsumption: 1
+    FuelCapacity: 100
+    MiningSpeed: 3
+    Stackable: false
+    Damaged:
+      Name: "Tronçonneuse en fer endommagée"
+      Type: CLAY_BALL
+      CustomModelData: 4
+      FuelCapacity: 100
+      Stackable: false

@@ -1,0 +1,80 @@
+CustomItems:
+  'red_mushroom_block':
+    Available: true
+    Type: ANDESITE
+    Name: "Bloc de champignon rouge"
+    CustomModelData: 1
+    Block: RED_MUSHROOM_BLOCK
+    Facing:
+      Up: true
+      Down: true
+      North: true
+      South: true
+      East: true
+      West: true
+  'brown_mushroom_block':
+    Available: true
+    Type: ANDESITE
+    Name: "Bloc de champignon marron"
+    CustomModelData: 2
+    Block: BROWN_MUSHROOM_BLOCK
+    Facing:
+      Up: true
+      Down: true
+      North: true
+      South: true
+      East: true
+      West: true
+  'mushroom_stem':
+    Available: true
+    Type: ANDESITE
+    Name: "tronc de champi"
+    CustomModelData: 3
+    Block: MUSHROOM_STEM
+    Facing:
+      Up: true
+      Down: true
+      North: true
+      South: true
+      East: true
+      West: true
+  'rubi_ore':
+    Available: true
+    Type: ANDESITE
+    Name: "Minerai de rubi"
+    CustomModelData: 5
+    Block: RED_MUSHROOM_BLOCK
+    Facing:
+      Up: true
+      Down: false
+      North: false
+      South: true
+      East: false
+      West: true
+  'icon_ores':
+    Available: true
+    Type: STICK
+    Name: "&b&lMinerais"
+    CustomModelData: 1
+  'icon_wallet':
+    Available: true
+    Type: STICK
+    Name: "&b&lMoney"
+    Lores:
+      - "&r%vault_eco_balance% €"
+    CustomModelData: 2
+  'icon_back':
+    Available: true
+    Type: STICK
+    Name: "&4&lRetour"
+    CustomModelData: 3
+  'icon_right_arrow':
+    Available: true
+    Type: STICK
+    Name: "&lPage Suivante"
+    CustomModelData: 4
+  'icon_lefth_arrow':
+    Available: true
+    Type: STICK
+    Name: "&lPage Précedente"
+    CustomModelData: 5

@@ -1,0 +1,13 @@
+Log:
+  File: true
+  Console: true
+SqlConnection:
+  Protocol: "jdbc:mysql://"
+  Host: "172.18.0.1:3306"
+  Database: "s5_developpement"
+  Username: "u5_EOPbyK5lEc"
+  Password: "PABhPYTBm6FPcOWM"
+CustomItems:
+  Permission: "redblock.custom.items.command"
+  ResourcePack:
+    Link: "http://redblock.fr/ResourcePack/RedBlockPack.zip"

@@ -1,0 +1,33 @@
+CustomItems:
+  Reload: "Vous venez de reload CustomItems"
+  NoPermission: "&cCette commande n'existe pas"
+  Usage: "/CustomItems <resourcepack/give/enable/disable>"
+  ResourcePack:
+    Usage: "La commande est /CustomItems RessourcePack <enable/disable/set>"
+    Enable: "Le RessourcePack viens d'être activé"
+    Disable: "Le RessourcePack viens d'être désactivé"
+    Information: "&cLe liens du ressource pack est &4%Link%&c, il est activé: &4%Enabled%&c"
+    Declined: "&cDeclined"
+    FailedDownload: "&cFailedDownload"
+    Set:
+      Usage: "La commande est /CustomItems RessourcePack set <link>"
+      Successful: "le liens du ressource pack est maintenant changé pour %link%"
+  Give:
+    Usage: "Il faut spécifier un item /customItems item give <args> <player> <item> <number>"
+    PlayerNotFound: "Le joueur %player% n'existe pas"
+    ItemNotFound: "l'item %item% spécifié n'existe pas"
+    InventoryFull: "Ancun emplacement n'est disponible pour donné %item%"
+    Gived:
+      Player: "Vous venez de give %amout% %item% à %player%"
+      Alone: "Vous venez de vous give %item%"
+      Received: "Vous venre de recevoir %amout% %item% par %player%"
+  Disable:
+    ItemNotFound: "Cet item n'existe pas !"
+    AlreadyDisable: "Cet item est déjà désactivé"
+    Disable: "l'item %item% viens d'être desactivé"
+    Usage: "la commande est /customitems disable <item>"
+  Enable:
+    ItemNotFound: "Cet item n'existe pas !"
+    AlreadyEnable: "Cet item est déjà activé"
+    Enable: "l'item %item% viens d'être activé"
+    Usage: "la commande est /customitems enable <item>"
